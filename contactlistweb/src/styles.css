@@ -1,0 +1,109 @@
+/* Importar Bootstrap Grid */
+@import '../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
+
+/* Estilo global para el cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+    padding: 20px;
+}
+
+/* Estilo para los títulos */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Centrado de la tabla */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Estilo para la tabla */
+.table {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 900px; /* Tamaño máximo de la tabla */
+    border: 1px solid #dee2e6; /* Borde de la tabla */
+}
+
+/* Encabezado de la tabla */
+.table thead {
+    background-color: #343a40;
+    color: white;
+}
+
+.table th {
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #dee2e6; /* Borde de las celdas de los encabezados */
+    padding: 12px;
+}
+
+/* Estilo para las filas de la tabla */
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e2e6ea;
+}
+
+/* Estilo de las celdas de la tabla */
+.table td {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #dee2e6; /* Borde entre las celdas */
+    padding: 12px;
+}
+
+/* Botón de inserción */
+.btn-continue {
+    background-color: #35dc35;
+    border-color: #46dc35;
+}
+
+.btn-continue:hover {
+    background-color: #1c7617;
+    transform: scale(1.05);
+}
+
+/* Botón de edición */
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #826205;
+    transform: scale(1.05);
+}
+
+/* Botón de eliminación */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #64040e;
+    transform: scale(1.05);
+}
+
+/* Contenedor de tabla (responsivo) */
+.table-responsive {
+    margin-top: 30px;
+}
+
+/* Espaciado adicional */
+.mb-5 {
+    margin-bottom: 40px;
+}
