@@ -23,6 +23,15 @@ Se crearon dos SCRUBs (servicios CRUD) independientes:
    - Implementación de los servicios RESTful utilizando **Spring Boot**.
    - La API permite realizar operaciones CRUD sobre los productos.
 
+## Navegación de GitHub
+
+En este repositorio, encontrarás las siguientes ramas:
+
+- **Rama `Frontend-.Angular`**: Contiene el código del frontend desarrollado en **Angular**.
+- **Rama `Servicio-.Net`**: Contiene el backend desarrollado en **.NET** para gestionar los clientes.
+- **Rama `Servicio-.SprintBoot`**: Contiene el backend desarrollado en **Spring Boot** para gestionar los productos.
+- **Rama `Base-de-datos`**: Contiene el script SQL necesario para crear la base de datos y las tablas correspondientes.
+
 ## Base de Datos
 
 La base de datos utilizada es **SQL Server**, donde se han creado las tablas correspondientes para los clientes y los productos. Ambas tablas fueron generadas mediante un script SQL que se encuentra en la carpeta **`/base_de_datos`**.
